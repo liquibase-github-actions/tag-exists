@@ -6,7 +6,7 @@ Verify the existence of the specified tag
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/tag-exists@v4.22.0
+- uses: liquibase-github-actions/tag-exists@v4.21.1
   with:
     # Tag to check
     # string
@@ -70,7 +70,7 @@ The liquibase tag exists action accepts all valid liquibase global options as op
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/tag-exists@v4.22.0
+  - uses: liquibase-github-actions/tag-exists@v4.21.1
     with:
       tag: ""
       url: ""
